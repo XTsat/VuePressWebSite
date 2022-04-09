@@ -28,7 +28,7 @@ module.exports = {
     editLinkText: '编辑此页',
 
     docsRepo: 'XTsat/VuePressWebSite',
-    docsBranch: 'VuePress',
+    docsBranch: 'main',
     docsDir: 'docs',
 
     lastUpdated: true,
