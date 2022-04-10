@@ -44,7 +44,6 @@ module.exports = {
         "Showcase.md",
         "How to make.md",
         "How to upload.md",
-        "Profile-Beautify.md",
         "Delete redundant.md",
         "Other.md"
       ]
