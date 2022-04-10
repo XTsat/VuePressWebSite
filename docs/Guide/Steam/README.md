@@ -2,12 +2,6 @@
 
 Steam平台指南
 
-## 个人资料美化
-
-[我的 Steam 美化展示 🎮](https://steamcommunity.com/id/XTxiaotong)
-
-[个人资料美化教程](./Profile-Beautify.md)
-
 ## Steam 浏览器扩展程序推荐
 
 ### 为您的个人资料提供新信息/Steam上产品信息

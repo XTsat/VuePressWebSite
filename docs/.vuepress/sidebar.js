@@ -32,8 +32,21 @@ module.exports = {
       "collapsable": false,
       "sidebarDepth": 1,
       "children": [
-        "README.md",
-        "Profile-Beautify.md"
+        "README.md"
+      ]
+    },
+    {
+      "text": "个人资料美化",
+      "title": "个人资料美化",
+      "collapsable": false,
+      "sidebarDepth": 1,
+      "children": [
+        "Showcase.md",
+        "How to make.md",
+        "How to upload.md",
+        "Profile-Beautify.md",
+        "Delete redundant.md",
+        "Other.md"
       ]
     }
   ],
