@@ -13,7 +13,7 @@ autoSort: -1
 
 在该页面上;打开控制台并粘贴以下所有代码：（别忘了按回车键）
 
-```JavaScript
+```JavaScript:no-line-numbers
 function ValidateForm（）{var form = document.getElementById（ 'ItemEditText' ）;form.submit（）;}
 ```
 
@@ -33,14 +33,14 @@ function ValidateForm（）{var form = document.getElementById（ 'ItemEditText'
 
 ⠀您应该看到一些看起来与下面类似的代码。
 
-```
+```:no-line-numbers
 <input type="hidden" name="rgShowcaseConfig[17][0][appid]" value="209330">
 <input type="hidden" name="rgShowcaseConfig[17][0][title]" value="2_4">
 ```
 
 将 `value=" "` 改成 `value="0"`,如下面所示
 
-```
+```:no-line-numbers
 <input type="hidden" name="rgShowcaseConfig[17][0][appid]" value="0">
 <input type="hidden" name="rgShowcaseConfig[17][0][title]" value="0">
 ```
@@ -51,6 +51,6 @@ function ValidateForm（）{var form = document.getElementById（ 'ItemEditText'
 
 导航到浏览器中的特色徽章设置，右键单击任意位置前往检查元素，然后单击控制台选项卡。复制下面提供的代码，粘贴到控制台中，然后按 Enter 发送。发送代码后，只需关闭控制台并在设置页面上单击保存，然后返回您的个人资料。您的特色徽章将被删除。
 
-```
+```:no-line-numbers
 var access_token = "";var badgeid = 0;if （window.location.href.indexOf（"steampowered"） > -1） { access_token = $J（"[data-loyaltystore]"）.data（"loyaltystore"）.webapi_token; } else if（window.location.href.indexOf（"steamcommunity"） > -1） { access_token = JSON.parse（$J（"#profile_edit_config"）.attr（"data-profile-edit"））.webapi_token;SetFavoriteFeaturedBadge（access_token， badgeid）;} else { console.log（"go to： https://store.steampowered.com/points/shop or https://steamcommunity.com/my/edit/info"）;SetFavoriteFeaturedBadge（access_token， badgeid）;} function SetFavoriteFeaturedBadge（access_token， badgeid） { $J.post（ 'https://api.steampowered.com/IPlayerService/SetFavoriteBadge/v1？'， { access_token： access_token， badgeid： badgeid }）; }
 ```

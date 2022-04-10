@@ -51,7 +51,7 @@ autoPrev: How to make
 
     <CodeGroupItem title="有标题的上传">
 
-    ```JavaScript
+    ```JavaScript:no-line-numbers
     $J（'#image_width'）.val（1000），$J（'#image_height'）.val（1）;
     ```
 
@@ -59,7 +59,7 @@ autoPrev: How to make
 
     <CodeGroupItem title="有标题的上传2">
 
-    ```JavaScript
+    ```JavaScript:no-line-numbers
     var num= document.getElementsByName("image_width")[0].value;
     document.getElementsByName("image_height")[0].value = num-(num-1);
     document.getElementsByName("image_width")[0].value= num*100;
@@ -69,7 +69,7 @@ autoPrev: How to make
 
     <CodeGroupItem title="无标题的上传(标题框留空)">
 
-    ```JavaScript
+    ```JavaScript:no-line-numbers
     function SubmitItem( bOverrideAppID ){$('SubmitItemForm').submit();}
     ```
 
@@ -104,11 +104,11 @@ autoPrev: How to make
     <CodeGroup>
     <CodeGroupItem title="有标题的上传1" active>
 
-    ```JavaScript
+    ```JavaScript:no-line-numbers
     $J（'[name=consumer_app_id]'）.val（480），$J（'[name=file_type]'）.val（0），$J（'[name=visibility]'）.val（0）;
     ```
 
-    ```JavaScript
+    ```JavaScript:no-line-numbers
     $J('#ConsumerAppID').val(480),$J('[name=file_type]').val(0),$J('[name=visibility]').val(0);
     ```
 
@@ -116,11 +116,11 @@ autoPrev: How to make
 
     <CodeGroupItem title="有标题的上传2">
 
-    ```JavaScript
+    ```JavaScript:no-line-numbers
     $J（'#image_width'）.val（'1000'）;$J（'#image_height'）.val（'1'）;$J（'[name="appid"]'）.val（"480"）;$J（'[name="consumer_app_id"]'）.val（"480"）;$J（'[name="visibility"]'）.val（"0"）;$J（'[name=file_type]'）.val（'11'）;
     ```
 
-    ```JavaScript
+    ```JavaScript:no-line-numbers
     $J('#image_width').val('1000');$J('#image_height').val('1');$J('[name="appid"]').val("766");$J('[name="consumer_app_id"]').val("766");$J('[name="visibility"]').val("0");$J('[name=file_type]').val('11');
     ```
 
@@ -128,7 +128,7 @@ autoPrev: How to make
 
     <CodeGroupItem title="无标题的上传(标题框留空)">
 
-    ```JavaScript
+    ```JavaScript:no-line-numbers
     function SubmitCollection(){$('SubmitCollectionForm').submit();}
     ```
 
@@ -162,7 +162,7 @@ autoPrev: How to make
 
     <CodeGroupItem title="有标题的上传">
 
-    ```JavaScript
+    ```JavaScript:no-line-numbers
     $J（'#image_width'）.val（1000），$J（'#image_height'）.val（1），$J（'[name=file_type]'）.val（5）;
     ```
 
@@ -170,7 +170,7 @@ autoPrev: How to make
 
     <CodeGroupItem title="无标题的上传(标题框留空)">
 
-    ```JavaScript
+    ```JavaScript:no-line-numbers
     function SubmitItem( bOverrideAppID ){$('SubmitItemForm').submit();}
     ```
 
@@ -204,7 +204,7 @@ autoPrev: How to make
 
     <CodeGroupItem title="有标题的上传1">
 
-    ```JavaScript
+    ```JavaScript:no-line-numbers
     $J（'[name=consumer_app_id]'）.val（480）;$J（'[name=file_type]'）.val（9）;$J（'[name=visibility]'）.val（0）;
     ```
 
@@ -212,7 +212,7 @@ autoPrev: How to make
 
     <CodeGroupItem title="有标题的上传2">
 
-    ```JavaScript
+    ```JavaScript:no-line-numbers
     $J（'#image_width'）.val（'1000'）;$J（'#image_height'）.val（'1'）;;$J（'[name="appid"]'）.val（"760"）;$J（'[name="consumer_app_id"]'）.val（"760"）;$J（'[name="visibility"]'）.val（"0"）;$J（'[name=file_type]'）.val（'9'）;
     ```
 
@@ -220,7 +220,7 @@ autoPrev: How to make
 
     <CodeGroupItem title="无标题的上传(标题框留空)">
 
-    ```JavaScript
+    ```JavaScript:no-line-numbers
     function SubmitGuide(){$('SubmitGuideForm').submit();}
     ```
 

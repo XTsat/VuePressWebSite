@@ -69,7 +69,7 @@ Written by [David Macintosh](https://steamcommunity.com/id/davidfigaromacintosh/
 - 滚动到页面的最底部：
 - 复制以下字节序列。
 
-```number
+```:no-line-numbers
 01 49 45 4E 44 00 D1 1A 4F E1
 ```
 
