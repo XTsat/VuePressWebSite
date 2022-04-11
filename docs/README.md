@@ -3,9 +3,9 @@ title: 首页
 home: true
 heroImage: /logo/晓.svg
 heroText: 晓同
-tagline: 
+tagline: 这些是我所写的指南，方便以后使用这些工具
 actions:
-  - text: 关于我
+  - text: 我的GitHub
     link: https://github.com/XTsat
     type: secondary
   - text: 指南

@@ -18,9 +18,10 @@ module.exports = {
       "collapsable": false,
       "sidebarDepth": 1,
       "children": [
+        "Download.md",
         "README.md",
         "Functions.md",
-        "FQA.md",
+        "FAQ.md",
         "How-To-Import-Steam-Token.md"
       ]
     }
