@@ -8,7 +8,7 @@ module.exports = {
   base: '/VuePressWebSite/',
   description: '',
 
-  open: true,
+  // open: true,
 
   // theme and its config
   theme: '@vuepress/theme-default',
