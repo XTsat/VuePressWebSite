@@ -4,6 +4,10 @@
 
 要使用用户脚本，您首先需要安装一个用户脚本管理器。您可以根据当前使用的浏览器来选择一个用户脚本管理器：
 
+脚本管理器的功能是通过编写脚本对网页进行任意更改，所以成为了最受欢迎的浏览器插件之一
+
+>油猴子究竟能做什么呢?他说一个脚本引擎。相对于扩展，脚本更轻量级，不占用太多资源并且只在特定的站点生效。他能够通过最简单的脚本来更改一个网站或者网页的布局、外观、操作。发现某个网站用起来费劲，没关系，找个油猴脚本;发现网站变形，没关系，说不定已经有油猴脚本帮你纠正了;网站隐藏图片链接或者找不到视频下载链接，没问题，油猴子脚本同样可以帮助你;想让网站背景图换成自己女友的，没问题，写个油猴子脚本轻松搞定……
+
 **Chrome:** Tampermonkey 或 Violentmonkey
 
 **Firefox:** Greasemonkey、Tampermonkey 或 Violentmonkey
@@ -20,19 +24,18 @@
 
 **UC:** Tampermonkey
 
+
 ### [Tampermonkey 油猴](https://www.tampermonkey.net/)
+
+在使用 chromium 内核的浏览器中通常选择 Tampermonkey 作为脚本管理器
 
 >Tampermonkey 是一款免费的浏览器扩展和最为流行的用户脚本管理器，它适用于 Chrome, Microsoft Edge, Safari, Opera Next, 和 Firefox。
 
-这个插件的功能是通过编写脚本对网页进行任意更改，所以成为了最受欢迎的浏览器插件之一
 
->油猴子究竟能做什么呢?他说一个脚本引擎。相对于扩展，脚本更轻量级，不占用太多资源并且只在特定的站点生效。他能够通过最简单的脚本来更改一个网站或者网页的布局、外观、操作。发现某个网站用起来费劲，没关系，找个油猴脚本;发现网站变形，没关系，说不定已经有油猴脚本帮你纠正了;网站隐藏图片链接或者找不到视频下载链接，没问题，油猴子脚本同样可以帮助你;想让网站背景图换成自己女友的，没问题，写个油猴子脚本轻松搞定……
-
-安装地址：
 
 [![Edge 外接程序 BETA](./Photo/Badge/edge.png)](https://microsoftedge.microsoft.com/addons/detail/iikmkjmpaadaobahmlepeloendndfphd)
 [![Chrome 网上应用店](./Photo/Badge/chrome.png)](https://microsoftedge.microsoft.com/addons/detail/iikmkjmpaadaobahmlepeloendndfphd)
-[![Firefox 附加组件](./Photo/Badge/firefox.png)](https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/)
+[![Firefox 附加组件](./Photo/Badge/firefox.png)](https://addons.mozilla.org/firefox/addon/tampermonkey/)
 [![Opera](./Photo/Badge/opera.png)](https://addons.opera.com/en/extensions/details/tampermonkey-beta/)
 
 ### [Violentmonkey 暴力猴](https://violentmonkey.github.io/)
@@ -41,11 +44,18 @@
 >
 >Violentmonkey 浏览器油猴插件，与 Tampermonkey 齐名，中文译名“暴力猴”，支持 Userscripts.org、GreasyFork、OpenUserJS三大脚本下载源
 
+[![Edge 外接程序 BETA](./Photo/Badge/edge.png)](https://microsoftedge.microsoft.com/addons/detail/eeagobfjdenkkddmbclomhiblgggliao)
+[![Chrome 网上应用店](./Photo/Badge/chrome.png)](https://chrome.google.com/webstore/detail/violent-monkey/jinjaccalgkegednnccohejagnlnfdag)
+[![Firefox 附加组件](./Photo/Badge/firefox.png)](https://addons.mozilla.org/firefox/addon/violentmonkey/)
+[GitHub Releases](https://github.com/violentmonkey/violentmonkey/releases)
+
 ### [Greasemonkey 油猴子](https://www.greasespot.net/)
 
-火狐用户可用 Greasemonkey 获得更好的体验
+火狐浏览器用户可用 Greasemonkey 获得更好的体验
 
  >Greasemonkey 官方版是火狐浏览器的一款实用的脚本插件,Greasemonkey 官方版软件也是最能体现火狐可定制性的强大的扩展之一,国内用户喜欢称其为“油猴子”
+
+[![Firefox 附加组件](./Photo/Badge/firefox.png)](https://addons.mozilla.org/firefox/addon/greasemonkey/)
 
 ---
 
