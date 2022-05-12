@@ -22,6 +22,6 @@ features:
     details: 
   - title: 油猴脚本指南
     details: 
-footer: Made by 晓同
+footer: Made by 晓同 <a href="https://github.com/XTsat/Browser-Guide">如果觉得这个指南有用的话可以去点个 Star 吗？</a>
 footerHtml: true
 ---
